@@ -1,6 +1,6 @@
 
-<h3 align="center"> This is my Personal Website
-</h3>
+<h1 align="center"> This is my Personal Website
+</h1>
 
 <h3 align="center"> Proudly created with Carmel
 </h3>
