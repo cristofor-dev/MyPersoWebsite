@@ -1,9 +1,13 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/fluidtrends/carmel/master/assets/carmel-logo.png" width="256px">
-</p>
 
-<h1 align="center"> Carmel
+<h1 align="center"> This is my Personal Website
 </h1>
+
+<h3 align="center"> Proudly created with Carmel
+</h3>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/fluidtrends/carmel/master/assets/carmel-logo.png" width="128px">
+</p>
 
 <h3 align="center"> The Open Source Decentralized Tech Education Platform </h3>
 <p>
