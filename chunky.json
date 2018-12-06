@@ -25,6 +25,8 @@
     "progressColor": "rgba(50,50,50,0.9)",
     "primaryColor": "#0097A7",
     "secondaryColor": "#FA880B",
+    "thirdColor": "#4A746A",
+    "grayColorLight": "#C9C5D8",
     "statusBarLight": false,
     "navigationColor": "#98C630",
     "navigationTintColor": "#37474F",

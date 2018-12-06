@@ -1,7 +1,7 @@
 {
-  "name": "MyPersoSite",
+  "name": "mypersosite",
   "version": "0.1.0",
-  "description": "This is Chunky",
+  "description": "This is my website",
   "scripts": {
     "test": "react-savor test",
     "lint": "react-savor lint",
@@ -15,7 +15,16 @@
   },
   "homepage": "http://www.chunky.io",
   "dependencies": {
-    "react-dom-chunky": "0.9.x"
+    "font-awesome": "^4.7.0",
+    "raw-loader": "^0.5.1",
+    "react-dom-chunky": "0.9.x",
+    "react-spring": "^6.1.10",
+    "react-truncate": "^2.4.0",
+    "react-twitter-embed": "^2.0.4",
+    "react-vivus": "0.0.2",
+    "styled-components": "^4.1.2",
+    "twitter": "^1.7.1",
+    "vivus": "^0.4.4"
   },
   "devDependencies": {
     "react-savor": "0.x"
