@@ -5,20 +5,25 @@
       "title": "Welcome",
       "icon": "home",
       "path": "/",
+      "extendedMenu": [
+        {
+          "id": "about",
+          "title": "My journey",
+          "path": "/journey"
+        }],
       "cover": {
         "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
-        "title": "This is my personal site",
-        "subtitle": "You won't believe your eyes",
+        "title": "Nice to meet you, I'm Cristian, 40+ years old",
+        "subtitle": "I just discovered how easy and fun learning how to code can be...if you have the right tools. Wanna find how?",
         "type": "default",
-        "primaryActionTitle": "Let's do this"
+        "primaryActionTitle": "Join me in my journey"
       },
       "components": {
         "intro": {
           "source": "summary",
           "text": "local://intro",
-          "image": "logo.png",
           "textColor": "#37474F"
         }
       }

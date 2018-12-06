@@ -16,7 +16,7 @@
   "provisioning": {},
   "theme": {
     "logoImage": "logo-white.png",
-    "logoLightImage": "logo.png",
+    "logoLightImage": "logo-white.png",
     "headerColor": "#FF5722",
     "textColor": "#546E7A",
     "linkColor": "#0288D1",
@@ -24,19 +24,22 @@
     "linkHoverBackgroundColor": "#F5F5F5",
     "progressColor": "rgba(50,50,50,0.9)",
     "primaryColor": "#0097A7",
-    "secondaryColor": "#66BB6A",
+    "secondaryColor": "#FA880B",
     "statusBarLight": false,
-    "navigationColor": "#FFFFFF",
+    "navigationColor": "#98C630",
     "navigationTintColor": "#37474F",
     "backgroundColor": "#999999",
-    "footerTintColor": "#CFD8DC",
-    "footerHeaderColor": "#90A4AE",
-    "footerColor": "#546E7A",
-    "footerBottomColor": "#37474F"
+    "footerTintColor": "white",
+    "footerHeaderColor": "white",
+    "footerColor": "#98C630",
+    "footerBottomColor": "#FA880B"
   },
   "info": {
-    "copyright": "2018",
-    "watermark": "Created with Carmel"
+    "copyright": "©2018",
+    "title": "My coding journey",
+    "summary": "This is my learning how to code journey",
+    "watermark": "Proudly created with Carmel",
+    "cover": "cover.r.png"
   },
   "template": "personal"
 }
