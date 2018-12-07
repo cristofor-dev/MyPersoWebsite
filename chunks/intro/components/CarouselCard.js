@@ -36,7 +36,7 @@ class CarouselCard extends React.Component {
             >
               <a
                 href={btnLink}
-                target={this.props.btnLink.includes('https://') ? '_blank' : ''}
+                target={this.props.btnLink.includes('https://') || this.props.btnLink.includes('http://') ? '_blank' : ''}
               >
                 {btnText}
               </a>

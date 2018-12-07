@@ -96,7 +96,7 @@
                 {
                   "image": "local://mysite.jpg",
                   "title": "My Website",
-                  "btnLink": "https://cristofor.io.s3-website.eu-west-2.amazonaws.com/",
+                  "btnLink": "http://cristofor.io.s3-website.eu-west-2.amazonaws.com/",
                   "btnText": "Visit it"
                 },
                 {
