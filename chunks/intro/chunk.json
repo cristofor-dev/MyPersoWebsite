@@ -84,19 +84,19 @@
                 {
                   "image": "local://internship.jpg",
                   "title": "Internship @Carmel",
-                  "btnLink": "http://www.carmel.io",
+                  "btnLink": "https://www.carmel.io",
                   "btnText": "Learn with Carmel"
                 },
                 {
                   "image": "local://eosnation.jpg",
                   "title": "EOS Nation Website",
-                  "btnLink": "http://eosnation.carmel.io",
+                  "btnLink": "https://eosnation.carmel.io",
                   "btnText": "Check it out"
                 },
                 {
                   "image": "local://mysite.jpg",
                   "title": "My Website",
-                  "btnLink": "#",
+                  "btnLink": "https://cristofor.io.s3-website.eu-west-2.amazonaws.com/",
                   "btnText": "Visit it"
                 },
                 {
