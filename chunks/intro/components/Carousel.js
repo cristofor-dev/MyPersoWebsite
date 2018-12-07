@@ -9,9 +9,9 @@ class Carousel extends React.Component {
     return (
       <CarouselContainerWrapper
         backgroundColor={theme.primaryColor}
-        carouselColor1={theme.thirdColor}
-        carouselColor2={theme.grayColorLight}
-        carouselColor3={theme.secondaryColor}
+        carouselColor1={theme.secondColor}
+        carouselColor2={theme.orangeColorLight}
+        // carouselColor3={theme.orangeColorLight}
       >
         {carousel.map(
           (
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
             },
             index
           ) => (
-            <div className="carousel-container" style={{ backgroundColor }}>
+            <div className="carousel-container" style={{ backgroundColor: backgroundColor}}>
               <Row>
                 <Col lg={6} md={20} style={{ paddingTop: '20px' }}>
                   <Heading3

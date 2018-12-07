@@ -21,81 +21,89 @@
         "primaryActionTitle": "Join me in my journey"
       },
       "components": {
-        "intro": {
-          "source": "summary",
-          "text": "local://intro",
-          "textColor": "#37474F"
-        },
+        "features": [
+          {
+            "id": "feature-carmel",
+            "source": "feature",
+            "text": "local://intro",
+            "image": "cover-developer.png",
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#FFFFFF",
+            "animation": true,
+            "actionTitle": "Give it a try!"
+          }],
         "gallery": {
           "source": "carouselSection",
           "carousel": [
             {
-              "title": "Community",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
-              "btnText": "Explore more",
-              "backgroundColor": "#000",
-              "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
+              "title": "Lifetime project",
+              "description": "Having a wonderful wife and 4 amazing kids, feeling really blessed.",
+              "btnText": "Read more",
+              "backgroundColor": "#3D6F9E",
+              "btnColor": "#2B4D6E",
+              "btnLink": "#",
               "cards": [
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*vdUq_xrxVzlfGFNnm1UsIA.jpeg",
-                  "title": "EOS Nation Ambassador Sam Joseph",
-                  "eventDate": "Sep 27 2018",
-                  "btnLink": "https://medium.com/@eosnationbp/ambassador-spotlight-samuel-joseph-nigeria-7913904c950b",
-                  "btnText": "Learn more"
+                  "image": "local://annamaria.jpg",
+                  "title": "My dear wife",
+                  "btnLink": "#",
+                  "btnText": "Meet her"
                 },
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*lFSNUpq6HwGJ9v-fmjEpvQ.jpeg",
-                  "title": "EOS Nation Ambassador Rory Mapstone",
-                  "eventDate": "Nov 24 2018",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-rory-mapstone-e34778219a1b",
-                  "btnText": "Learn more"
+                  "image": "local://teodora.jpg",
+                  "title": "Teodora",
+                  "btnLink": "#",
+                  "btnText": "Meet her"
                 },
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*Xu9W3WRQuMjQ1c4Ig6bhHA.jpeg",
-                  "title": "EOS Nation Ambassador Patrick Schmid",
-                  "eventDate": "Nov 15 2018",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-patrick-schmid-95b9a495d27d",
-                  "btnText": "Learn more"
+                  "image": "local://daniela.jpg",
+                  "title": "Daniela",
+                  "btnLink": "#",
+                  "btnText": "Meet her"
                 },
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
-                  "title": "EOS Nation Ambassadors India",
-                  "eventDate": "Sep 30 2018",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
-                  "btnText": "Learn more"
+                  "image": "local://iosif.jpg",
+                  "title": "Iosif",
+                  "btnLink": "#",
+                  "btnText": "Meet him"
+                },
+                {
+                  "image": "local://emanuel.jpg",
+                  "title": "Emanuel",
+                  "btnLink": "#",
+                  "btnText": "Meet him"
                 }
               ]
             },
             {
-              "title": "Projects",
-              "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
-              "btnText": "Explore more",
-              "backgroundColor": "#000",
-              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
+              "title": "New Land",
+              "description": "Being a seasoned IT engineer, recently switching the gears toward frontend development.",
+              "btnText": "My achievements",
+              "btnLink": "#",
               "cards": [
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
-                  "title": "EOS Nation Ambassadors India",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
-                  "btnText": "Learn more"
+                  "image": "local://internship.jpg",
+                  "title": "Internship @Carmel",
+                  "btnLink": "http://www.carmel.io",
+                  "btnText": "Learn with Carmel"
                 },
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
-                  "title": "EOS Nation Ambassadors India",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
-                  "btnText": "Learn more"
+                  "image": "local://eosnation.jpg",
+                  "title": "EOS Nation Website",
+                  "btnLink": "http://eosnation.carmel.io",
+                  "btnText": "Check it out"
                 },
                 {
-                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
-                  "title": "EOS Nation Ambassadors India",
-                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
-                  "btnText": "Learn more"
+                  "image": "local://mysite.jpg",
+                  "title": "My Website",
+                  "btnLink": "#",
+                  "btnText": "Visit it"
                 },
                 {
-                  "image": "local://pomelo-wallet.jpeg",
-                  "title": "Pomelo - EOS Wallet",
-                  "btnLink": "https://steemit.com/eos/@eosnation/eos-wallet-voting-mobile-app",
-                  "btnText": "Learn more"
+                  "image": "local://multiply.jpg",
+                  "title": "Funny multiplication app",
+                  "btnLink": "https://codesandbox.io/embed/mo4ll2993p?codemirror=1",
+                  "btnText": "Give it a try"
                 }
               ]
             }

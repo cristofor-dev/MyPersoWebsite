@@ -254,10 +254,8 @@ export const CarouselContainerWrapper = styled.div`
     133.26deg,
     rgba(209, 131, 39, 0) 0%,
     ${props => props.backgroundColor || '#000'} 42.49%,
-    ${props => props.carouselColor1 || '#000'} 55.9%,
-    ${props => props.carouselColor2 || '#000'} 75.8%,
-    ${props => props.carouselColor3 || '#000'} 100%
-  );
+    ${props => props.carouselColor1 || '#000'} 55.9%
+    );
   :before {
     content: '';
     position: absolute;
