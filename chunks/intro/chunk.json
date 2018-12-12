@@ -108,7 +108,79 @@
               ]
             }
           ]
+        },
+        "team": {
+          "source": "team",
+          "backgroundColor": "#FFFFFF",
+          "textColor": "#FA880B",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
+            {
+              "title": "5AM Legends Mentors",
+              "members": [
+                {
+                  "name": "Chunky",
+                  "title": "Our Code Monkey",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/master/assets/chunky-logo.gif",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/chunky/README.md",
+                  "github": "https://github.com/fluidtrends/chunky"
+                },
+                {
+                  "name": "Andi Coman",
+                  "title": "Carmel Mentor",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/andi/profile.png",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/andi/README.md"
+                },
+                {
+                  "name": "Robert Pop",
+                  "title": "Carmel Mentor",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/robert/profile.png",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/robert/README.md"
+                },
+                {
+                  "name": "Cristian Poputea",
+                  "title": "Carmel Mentor",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/cristi/profile.jpeg",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/cristi/README.md"
+                }
+              ]
+            },
+            {
+              "title": "5AM Legends Interns",
+              "members": [
+                {
+                  "name": "Adrien Benoist",
+                  "title": "Carmel Intern",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/adrien/profile.jpg",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/adrien/README.md"
+                },
+                {
+                  "name": "Emanuel Tomus",
+                  "title": "Carmel Intern",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/manu/profile.jpg",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/manu/README.md"
+                },
+                {
+                  "name": "Iosif Dolha",
+                  "title": "Carmel Intern",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/iosif/profile.jpeg",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/iosif/README.md"
+                },
+                {
+                  "name": "Valentin Lazurca",
+                  "title": "Carmel Intern",
+                  "image": "https://raw.githubusercontent.com/cristofor-io/MyPersoWebsite/carousel-chunk/assets/vali.jpg",
+                  "text": "https://raw.githubusercontent.com/fluidtrends/carmel/content/team/valentin/README.md"
+                }
+              ]
+            }
+          ]
         }
+      },
+      "events": {
+        "feature-carmel": "https://carmel.io"
       }
     }
   }
