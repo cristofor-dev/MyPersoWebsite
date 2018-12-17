@@ -1,6 +1,7 @@
 import React from 'react'
 import { Screen } from 'react-dom-chunky'
 import * as CustomComponents from "../components";
+import Telegram from "../components/Telegram";
 
 export default class MainIntroScreen extends Screen {
 
@@ -25,7 +26,9 @@ export default class MainIntroScreen extends Screen {
   }
 
   components() {
-    return super.components()
-      .concat(this.features)
+    const features = super.components()
+    return [
+      ...features,
+    ]
   }
 }

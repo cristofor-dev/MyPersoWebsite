@@ -11,7 +11,6 @@ class Carousel extends React.Component {
         backgroundColor={theme.primaryColor}
         carouselColor1={theme.secondColor}
         carouselColor2={theme.orangeColorLight}
-        // carouselColor3={theme.orangeColorLight}
       >
         {carousel.map(
           (

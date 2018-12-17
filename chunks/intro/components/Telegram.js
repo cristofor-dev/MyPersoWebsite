@@ -1,21 +1,22 @@
-import React from 'react'
-import { Component } from 'react-dom-chunky'
-import { Fab } from '@rmwc/fab'
+import React from 'react';
+import { Screen } from 'react-dom-chunky';
 
-export default class TelegramComponent extends Component {
-
-  constructor (props) {
-    super(props)
-  }
-
-  componentDidMount () {
-    super.componentDidMount()
-  }
+export default class TelegramComponent extends Screen {
 
   render () {
-    return (<div style={styles.fab} onClick={this.props.onAction}>
-      <img src='assets/telegram.png' style={styles.icon} />
+    const { telegram } = this.props
+    return (
+    telegram.map(
+      (
+        {
+          telegramLink,
+          telegramImg
+        }
+      ) => (<div style={styles.fab} onClick={()=>this.triggerRawRedirect(telegramLink)}>
+      <img src={telegramImg} style={styles.icon} />
     </div>)
+    )
+    )
   }
 }
 

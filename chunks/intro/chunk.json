@@ -109,6 +109,15 @@
             }
           ]
         },
+        "telegramButton": {
+          "source": "telegramButton",
+          "telegram": [
+            {
+             "telegramLink": "https://t.me/cristofor",
+              "telegramImg": "assets/telegram.png"
+            }
+          ]
+        },
         "team": {
           "source": "team",
           "backgroundColor": "#FFFFFF",
